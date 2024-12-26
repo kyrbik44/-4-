@@ -1,0 +1,58 @@
+.amifigura{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 0;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20%;
+}
+.amimodel{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(0,-10px);
+}
+.lalala{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(150px, -60px);
+}
+.amifigura{
+    animation-name: car;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.amimodel{
+    animation-name: car;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.lalala{
+    animation-name: car;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes car {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1000px;
+    }
+    
+}
